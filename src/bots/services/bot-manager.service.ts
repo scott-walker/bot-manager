@@ -1,6 +1,6 @@
 import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { BotConfig } from '@bots/entities/BotConfig';
+import { BotConfig } from '@/bots/lib/BotConfig';
 import { Bot } from '@bots/lib/TelegramBot';
 import { BotFactoryService } from '@bots/services/bot-factory.service';
 import { BotRegistryService } from '@bots/services/bot-registry.service';

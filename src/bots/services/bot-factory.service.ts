@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { BotConfig } from '@bots/entities/BotConfig';
+import { BotConfig } from '@/bots/lib/BotConfig';
 import { Bot } from '@bots/lib/TelegramBot';
 
 /**

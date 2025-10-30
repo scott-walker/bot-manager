@@ -1,6 +1,6 @@
 import { Controller, Post, Delete, Body, Param } from '@nestjs/common';
 import { BotManagerService } from '@bots/services/bot-manager.service';
-import { BotConfig } from '@bots/entities/BotConfig';
+import { BotConfig } from '@/bots/lib/BotConfig';
 
 /**
  * Контроллер для управления ботами

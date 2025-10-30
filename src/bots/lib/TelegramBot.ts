@@ -1,6 +1,6 @@
 import TelegramBot from 'node-telegram-bot-api';
 import { ITelegramBot, IBotMessage } from '@bots/interfaces/bot.interface';
-import { BotConfig } from '@bots/entities/BotConfig';
+import { BotConfig } from '@bots/lib/BotConfig';
 
 /**
  * Бот
