@@ -34,8 +34,8 @@ export class BotManagerService implements OnModuleInit, OnModuleDestroy {
    */
   private loadConfig(): void {
     const configs: BotConfig[] = [
-      { name: 'Bot1', token: this.config.get<string>('BOT_TOKEN_1')! }
-      // { name: 'Bot2', token: this.config.get<string>('BOT_TOKEN_2')! }
+      { name: 'Bot1', token: this.config.get<string>('BOT_TOKEN_1')! },
+      { name: 'Bot2', token: this.config.get<string>('BOT_TOKEN_2')! }
     ];
 
     configs.forEach(config => this.botConfigs.push(config));
